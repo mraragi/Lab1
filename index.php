@@ -1,7 +1,8 @@
 <?php
 
-function ag() {
-    echo "hello function";
+function ag(string $text): void {
+    echo $text;
 }
 
-ag();
+
+ag("param3t3r");
